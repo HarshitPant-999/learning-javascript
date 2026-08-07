@@ -3,3 +3,4 @@ What this is — "My JavaScript learning journey through The Odin Project's Foun
 Why — pivoting into web dev, following up on my Flask/Python backend work)
 Structure — Daily lesson and project
 
+# learning-javascript
