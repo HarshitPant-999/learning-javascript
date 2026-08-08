@@ -20,4 +20,14 @@ console.log("hello from javascript.js");
 
 //console.log(firstName);
 //console.log(lastName);
-console.log((3 + 2) -76 * (1 + 1))
+
+
+//console.log((3 + 2) -76 * (1 + 1))
+const age = 34;
+if (age < 18) {
+    console.log("minor");
+} else if (age < 65) {
+    console.log("adult");
+} else {
+    console.log("elderly");
+}
