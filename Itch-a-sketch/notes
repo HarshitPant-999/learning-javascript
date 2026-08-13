@@ -1,0 +1,12 @@
+The specific JS concept is classList — a property every DOM element has, giving you a small set of methods to manage its CSS classes:
+
+.add("className") — attaches a class
+.remove("className") — detaches a class
+.toggle("className") — adds it if absent, removes it if present
+.contains("className") — checks if the element currently has that class (returns true/false)
+
+
+
+
+// JS object
+const entry = { trigger: "doomscrolling", resetInfo: "walk", resolved: true };
