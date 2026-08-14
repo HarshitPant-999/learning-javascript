@@ -1,8 +1,5 @@
-//const randomColor = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
-
 const resetButton = document.getElementById("resetButton");
 const grid = parseInt(prompt("Enter grid size."))
-//const gridWidth = parseInt(prompt("Enter width size."))
 for (let round = 1; round <= grid; round++) {
   for (let round = 1; round <= grid; round++) {
     const box = document.createElement("div");
