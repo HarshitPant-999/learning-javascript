@@ -10,3 +10,27 @@ The specific JS concept is classList — a property every DOM element has, givin
 
 // JS object
 const entry = { trigger: "doomscrolling", resetInfo: "walk", resolved: true };
+
+
+
+<style>
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        width: 800px; /* 16 squares × 50px each */
+    }
+</style>
+
+
+display: flex — tells the browser "lay out this element's children in a row, side by side" (similar spirit to Bootstrap's row/col classes you've already used).
+
+
+
+
+  const randomColor = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
+  `rgb(${Math.floor(Math.random() * 256)}`)
+
+prompt always returns string, parseInt converts input to string
+
+
+resetbutton should be first then script ,otherwise itll be none
