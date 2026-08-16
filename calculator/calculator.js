@@ -58,15 +58,30 @@ for (const button of document.querySelectorAll(".digitButton")) {
 
 for (const button of document.querySelectorAll(".operateButton")) {
   button.addEventListener("click", () => {
-    if (button.textContent != "=") {
+    if (button.textContent != "=" && button.textContent != "clear") {
       operator = button.textContent;
     }
     else if (button.textContent === "=") {
-      display.textContent = operate(numOne, operator, numTwo);
+      result= operate(Number(numOne), operator, Number(numTwo));
+      display.textContent = result
+      operator = undefined;
+      numTwo = "";
+      numOne = result.toString();
+      console.log(typeof numOne)
+    }
+    else if (button.textContent === "clear") {
+      display.textContent = "";
+      numOne = "";
+      operator = undefined;
+      numTwo = "";
     };
   });
 };
 
+
+    // else if (button.textContent === "clear") {
+      // display.textContent = 0;
+    // };
 // if display.textContent == "="
   // result = 
 // display.addEventListener("click") = () => {
